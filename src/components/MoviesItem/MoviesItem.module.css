@@ -1,0 +1,33 @@
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  line-height: 1.667;
+  border: 1px solid rgb(44, 195, 201);
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 400px;
+  padding: 15px;
+  background-color: rgba(169, 250, 250, 0.5);
+}
+
+.link:hover,
+.link:focus {
+  color: #ff6b08;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+
+}

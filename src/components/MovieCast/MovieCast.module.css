@@ -1,0 +1,9 @@
+.cast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 440px;
+  grid-gap: 30px;
+}
+.photo {
+  width: 100%;
+}

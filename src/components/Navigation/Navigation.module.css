@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  padding: 12px;
+  max-height: 230px;
+  background-color: rgb(8, 8, 8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.667;
+  color: white;
+  stroke: #818181;
+  margin-right: 50px;
+}
+
+.activeLink,
+.link:hover,
+.link:focus {
+  color: #ff6b08;
+  stroke: rgba(255, 143, 68, 0.863);
+  outline: none;
+}

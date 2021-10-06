@@ -1,0 +1,32 @@
+.link {
+  text-transform: uppercase;
+  color: black;
+  line-height: 1.667;
+  background-color: chocolate;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link:hover,
+.link:focus {
+  color: #ff6b08;
+  cursor: pointer;
+  outline: none;
+  background-color: black;
+}
+a {
+  display: block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.poster {
+  width: 300px;
+}
+.cardContainer {
+  display: flex;
+}
